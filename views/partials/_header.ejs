@@ -1,0 +1,261 @@
+    <div id="kopa-page-header">
+
+        <div id="kopa-header-top">
+            
+            <div class="outer clearfix">
+
+                <div id="logo-image" class="pull-left">
+                    
+                    <a href="index.html">
+                        <img src="placeholders/" alt="TriggerBird Logo">
+                    </a>
+                </div>
+
+                <div id="kopa-header-top-inner" class="pull-left">
+
+                    <div class="clearfix">
+
+                        <div class="left-col pull-left line-divider clearfix">
+                    
+                            <div class="kp-headline-wrapper pull-left clearfix">
+                                <div class="kp-headline clearfix">                        
+                                    <dl class="ticker-1 clearfix">
+                                        <dt></dt>
+                                        <dd><a href="#">The best independent music store on the web</a></dd>
+                                        <dt></dt>
+                                        <dd><a href="#">Use this custom message to display important news to your fans!</a></dd>
+                                        <dt></dt>
+                                        <dd><a href="#">The best independent music store on the web</a></dd>
+                                    </dl>
+                                    <!--ticker-1-->
+                                </div>
+                                <!--kp-headline-->
+                            </div>
+                            <!-- kp-headline-wrapper -->
+
+                            <ul class="social-links pull-right clearfix">
+                                <li><a href="#" class="fa fa-facebook"></a></li>
+                                <li><a href="#" class="fa fa-twitter"></a></li>
+                                <li><a href="#" class="fa fa-instagram"></a></li>
+                                <li><a href="#" class="fa fa-youtube"></a></li>
+                            </ul>
+                            <!-- social-links -->
+
+                        </div>
+                        <!-- left-col -->
+                        <% if(user!=null){ %>
+                            <div class="right-col line-divider pull-left">
+
+                                <a class="signin-button" href="/account">Account</a>
+
+                                <a class="reg-button">Logout</a>
+                                
+                            </div>
+                         <% } else{ %>  
+                            <div class="right-col line-divider pull-left">
+
+                                <a class="signin-button" href="/login">Sign in</a>
+
+                                <a class="reg-button" href="/login">Register</a>
+                                
+                            </div>
+                        <% } %>
+
+
+                        <!-- right-col -->
+                        
+                    </div>
+                    <!-- clearfix -->
+
+                    <div class="clearfix">
+                        
+                        <div class="left-col pull-left clearfix">
+                    
+                            <div class="search-box clearfix">
+                                <form action="#" class="search-form pull-left clearfix" method="get">
+                                    <input type="text" onBlur="if (this.value == '')
+                                        this.value = this.defaultValue;" onFocus="if (this.value == this.defaultValue)
+                                        this.value = '';" value="Search" name="s" class="search-text">
+                                    <button type="submit" class="search-submit"><i class="fa fa-search"></i>
+                                    </button>
+                                </form>
+                                <!-- search-form -->
+                            </div>
+                            <!--search-box-->
+
+                        </div>
+                        <!-- left-col -->
+
+                        <div class="right-col pull-left">
+
+                        <a class="shopping-cart-button clearfix" href="#"><i class="fa fa-shopping-cart pull-left"></i><span class="pull-left">Shopping cart</span></a>
+                            
+                        </div>
+                        <!-- right-col -->
+
+                    </div>
+                    <!-- clearfix -->
+                    
+                </div>
+                <!-- kopa-header-top-inner -->
+
+            </div>
+            <!-- outer -->
+
+        </div>
+        <!-- kopa-header-top -->
+
+        <div id="kopa-header-bottom">
+
+            <div class="outer clearfix">
+
+                <nav id="main-nav">
+                    
+                    <ul id="main-menu" class="clearfix">
+                        <li class="current-menu-item">
+                            <a href="/">Home</a>
+                        </li>
+                        <li><a href="artists.html">Girls</a></li>
+
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="albums.html">Videos</a></li>
+                        
+                        <li>
+                            <a href="#">Events</a>
+                            <ul>
+                                <li><a href="event-1.html">Event style 1</a></li>
+                                <li><a href="event-2.html">Event style 2</a></li>
+                                <li><a href="event-3.html">Event style 3</a></li>
+                                <li><a href="event-4.html">Event style 4</a></li>
+								<li><a href="single-event.html">Single Event</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Shop</a>
+                            <ul>
+                                <li><a href="shop.html">Products list</a></li>
+                                <li><a href="single-product.html">Product detail</a></li>
+                            </ul>
+                        </li>
+                    <!--    <li>
+                            <a href="#">Shortcodes</a>
+                            <ul>
+                                <li><a href="buttons.html">Buttons</a></li>
+                                <li><a href="tabs.html">Tabs</a></li>
+                                <li><a href="elements.html">Elements</a></li>
+                                <li><a href="typography.html">Typography</a></li>
+                                <li><a href="pricing.html">Pricing Table</a></li>
+                            </ul>
+                        </li>-->
+                        <li>
+                            <a href="#">Blog</a>
+                            <ul>
+                                <li>
+                                    <a href="#">Blog pages</a>
+                                    <ul>
+                                        <li><a href="blog1.html">Blog style 1</a></li>
+                                        <li><a href="blog2.html">Blog style 2</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Single pages</a>
+                                    <ul>
+                                        <li><a href="single-standard.html">Single standard</a></li>
+                                        <li><a href="single-soundcloud.html">Single audio</a></li>
+                                        <li><a href="single-gallery.html">Single gallery</a></li>
+                                        <li><a href="single-video.html">Single video</a></li>
+                                        <li><a href="single-album.html">Single album</a></li>
+										<li><a href="single-artist.html">Single artist</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="">About</a>
+                        <li><a href="contact.html">Contact</a></li>
+
+                    </ul>
+                    <!-- main-menu -->
+
+                    <i class='fa fa-align-justify'></i>
+                
+                    <div class="mobile-menu-wrapper">
+                        <ul id="mobile-menu">
+                            <li class="current-menu-item">
+                                <a href="#">Home</a>
+                                <ul>
+                                    <li><a href="index.html">Home style 1</a></li>
+                                    <li><a href="index2.html">Home style 2</a></li>
+                                </ul>                                
+                            </li>
+
+                            <li>
+                                <a href="#">Blogs</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Blog page</a>
+                                        <ul>
+                                            <li><a href="blog1.html">Blog style 1</a></li>
+                                            <li><a href="blog2.html">Blog style 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Single page</a>
+                                        <ul>
+                                            <li><a href="single-standard.html">Single standard</a></li>
+                                            <li><a href="single-video.html">Single video</a></li>
+                                            <li><a href="single-soundcloud.html">Single audio</a></li>
+                                            <li><a href="single-gallery.html">Single gallery</a></li>
+                                            <li><a href="single-album.html">Single album</a></li>
+											<li><a href="single-artist.html">Single artist</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="gallery.html">Gallery page</a></li>
+                            <li><a href="albums.html">Albums page</a></li>
+							<li><a href="artists.html">Artists page</a></li>
+                            <li>
+                                <a href="#">Events</a>
+                                <ul>
+                                    <li><a href="event-1.html">Events style 1</a></li>
+                                    <li><a href="event-2.html">Events style 2</a></li>
+                                    <li><a href="event-3.html">Events style 3</a></li>
+                                    <li><a href="event-4.html">Events style 4</a></li>
+									<li><a href="single-event.html">Single Event</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Shop</a>
+                                <ul>
+                                    <li><a href="shop.html">Shop list</a></li>
+                                    <li><a href="single-product.html">Shop detail</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Shortcodes page</a>
+                                <ul>
+                                    <li><a href="elements.html">Elements</a></li>
+                                    <li><a href="buttons.html">Buttons</a></li>
+                                    <li><a href="tabs.html">Tabs</a></li>
+                                    <li><a href="typography.html">Typography</a></li>
+                                    <li><a href="pricing.html">Pricing Table</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact page</a>
+                            </li>
+                        </ul>
+                        <!-- mobile-menu -->
+                    </div>
+                    <!-- mobile-menu-wrapper -->
+
+                </nav>
+                <!-- main-nav -->
+                
+            </div>
+            <!-- outer -->
+            
+        </div>
+        <!-- kopa-header-bottom -->
+        
+    </div>

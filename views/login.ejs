@@ -1,0 +1,118 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <%- include('partials/_head') %>  
+    </head>
+    
+<body class="kopa-home-1">
+
+
+    <!-- kopa-page-header -->
+    <!--HEADER-->
+    <%- include('partials/_header') %> 
+    <div id="main-content">
+        <section class="kopa-area kopa-area-8">
+
+            <div class="kopa-area-nt zero-top-marg">
+
+                <div class="wrapper">
+
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="alert" style="display:none;">
+                            <button class="close" aria-hidden="true" data-dismiss="alert" type="button">×</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+
+                            <div class="widget kopa-contact-widget">
+                                <div class="kopa-span-rt-1"></div>
+
+                                <div class="widget-wrap">
+                                    <h3 class="widget-title style1">Sign In</h3>
+
+                                    <div class="contact-box-1">
+
+                                        <form class="contact-form-1 clearfix">
+                                        <p class="input-block">
+                                            <input type="text" value="Email" onfocus="if(this.value=='Email')this.value='';" onblur="if(this.value=='')this.value='Email';" id="login-email" name="email" class="valid">
+                                        </p>
+                                        <p class="input-block">
+                                            <input type="password" placeholder="Password" id="login-pass" name="password" >
+                                        </p>
+                                        <p class="contact-button clearfix text-center">           
+                                            <a class="kopa-button form-button" id="signin-button">Sign In</a>
+                                        </p>
+                                        </form>
+                                    </div>
+                                    <!-- contact-box-1 -->
+                                </div>
+
+                            </div>
+                            <!-- widget --> 
+                    
+                        </div>
+                        <!-- col-md-6 -->
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+
+                            <div class="widget kopa-contact-widget">
+                                <div class="kopa-span-rt-1"></div>
+
+                                <div class="widget-wrap">
+                                    <h3 class="widget-title style1">Register</h3>
+
+                                    <div class="contact-box-1">
+
+                                        <form class="contact-form-1 clearfix">
+
+                                        <p class="input-block">
+                                            <input type="text" value="Email" onfocus="if(this.value=='Email')this.value='';" onblur="if(this.value=='')this.value='Email';" id="reg-email" name="email" class="valid">
+                                        </p>
+                                        <p class="input-block">
+                                            <input type="password" id="reg-pass" placeholder="Password" name="reg-password">
+                                        </p>
+                                        <p class="input-block">
+                                            <input type="password" id="confirm-pass" placeholder="Confirm Password" name="confirm-pass" >
+                                        </p>
+
+                                        <p class="contact-button clearfix text-center">           
+                                            <a class="kopa-button form-button" id="register-button">Register</a>
+                                        </p>
+                                        </form>
+                                    </div>
+                                    <!-- contact-box-1 -->
+                                </div>
+
+                            </div>
+                            <!-- widget --> 
+                    
+                        </div>
+                    </div>
+                    <!-- row --> 
+                
+                </div>
+                <!-- wrapper -->
+
+            </div>
+            
+        </section>
+        <!-- kopa-area-8 -->
+
+        <!--FOOTER-->
+        <%- include('partials/_footer') %> 
+        <!-- kopa-footer -->
+
+    </div>
+    <!-- main-content -->
+
+    
+<!--SCRIPTS-->
+<%- include('partials/_scripts') %> 
+
+    
+</body>
+
+</html>

@@ -4,293 +4,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>TriggerBird - Watch the hottest girls in gaming</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" media="all" />
-        <link rel="stylesheet" href="/stylesheets/font-awesome.min.css" media="all" />
-        <link rel="stylesheet" href="/stylesheets/superfish.css" media="all" />
-        <link rel="stylesheet" href="/stylesheets/owl.carousel.css" media="all" />
-        <link rel="stylesheet" href="/stylesheets/owl.theme.css" media="all" />
-        <link rel="stylesheet" href="/stylesheets/jquery.navgoco.css"/>
-		<link rel="stylesheet" href="/stylesheets/pro-bars.min.css"/>
-        <link rel="stylesheet" href="/stylesheets/jplayer.css"/>
-        <link rel="stylesheet" href="/stylesheets/style.css">
-        <link rel="stylesheet" href="/stylesheets/responsive.css"/>
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,400italic,300italic' rel='stylesheet'>
-        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet'>
-        <script src="/javascripts/modernizr.custom.js"></script>
-
-        <!-- Le fav and touch icons -->
-        <link rel="shortcut icon" href="/img/favicon.ico">
-        <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png">
-
-       <!-- <link rel='stylesheet' href='/stylesheets/style.css' />-->
-
+    <%- include('partials/_head') %>  
     </head>
     
 <body class="kopa-home-1">
 
-    <div id="kopa-page-header">
 
-        <div id="kopa-header-top">
-            
-            <div class="outer clearfix">
-
-                <div id="logo-image" class="pull-left">
-                    
-                    <a href="index.html">
-                        <img src="placeholders/" alt="TriggerBird Logo">
-                    </a>
-                </div>
-
-                <div id="kopa-header-top-inner" class="pull-left">
-
-                    <div class="clearfix">
-
-                        <div class="left-col pull-left line-divider clearfix">
-                    
-                            <div class="kp-headline-wrapper pull-left clearfix">
-                                <div class="kp-headline clearfix">                        
-                                    <dl class="ticker-1 clearfix">
-                                        <dt></dt>
-                                        <dd><a href="#">The best independent music store on the web</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">Use this custom message to display important news to your fans!</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">The best independent music store on the web</a></dd>
-                                    </dl>
-                                    <!--ticker-1-->
-                                </div>
-                                <!--kp-headline-->
-                            </div>
-                            <!-- kp-headline-wrapper -->
-
-                            <ul class="social-links pull-right clearfix">
-                                <li><a href="#" class="fa fa-facebook"></a></li>
-                                <li><a href="#" class="fa fa-twitter"></a></li>
-                                <li><a href="#" class="fa fa-instagram"></a></li>
-                                <li><a href="#" class="fa fa-youtube"></a></li>
-                            </ul>
-                            <!-- social-links -->
-
-                        </div>
-                        <!-- left-col -->
-
-                        <div class="right-col line-divider pull-left">
-
-                            <a class="signin-button" href="#">Sign in</a>
-
-                            <a class="reg-button" href="#">Register</a>
-                            
-                        </div>
-                        <!-- right-col -->
-                        
-                    </div>
-                    <!-- clearfix -->
-
-                    <div class="clearfix">
-                        
-                        <div class="left-col pull-left clearfix">
-                    
-                            <div class="search-box clearfix">
-                                <form action="#" class="search-form pull-left clearfix" method="get">
-                                    <input type="text" onBlur="if (this.value == '')
-                                        this.value = this.defaultValue;" onFocus="if (this.value == this.defaultValue)
-                                        this.value = '';" value="Search" name="s" class="search-text">
-                                    <button type="submit" class="search-submit"><i class="fa fa-search"></i>
-                                    </button>
-                                </form>
-                                <!-- search-form -->
-                            </div>
-                            <!--search-box-->
-
-                        </div>
-                        <!-- left-col -->
-
-                        <div class="right-col pull-left">
-
-                        <a class="shopping-cart-button clearfix" href="#"><i class="fa fa-shopping-cart pull-left"></i><span class="pull-left">Shopping cart</span></a>
-                            
-                        </div>
-                        <!-- right-col -->
-
-                    </div>
-                    <!-- clearfix -->
-                    
-                </div>
-                <!-- kopa-header-top-inner -->
-
-            </div>
-            <!-- outer -->
-
-        </div>
-        <!-- kopa-header-top -->
-
-        <div id="kopa-header-bottom">
-
-            <div class="outer clearfix">
-
-                <nav id="main-nav">
-                    
-                    <ul id="main-menu" class="clearfix">
-                        <li class="current-menu-item">
-                            <a href="#">Home</a>
-                            <ul>
-                                <li class="current-menu-item"><a href="index.html">Home style 1</a></li>
-                                <li><a href="index2.html">Home style 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="artists.html">Girls</a></li>
-
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="albums.html">Videos</a></li>
-                        
-                        <li>
-                            <a href="#">Events</a>
-                            <ul>
-                                <li><a href="event-1.html">Event style 1</a></li>
-                                <li><a href="event-2.html">Event style 2</a></li>
-                                <li><a href="event-3.html">Event style 3</a></li>
-                                <li><a href="event-4.html">Event style 4</a></li>
-								<li><a href="single-event.html">Single Event</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Shop</a>
-                            <ul>
-                                <li><a href="shop.html">Products list</a></li>
-                                <li><a href="single-product.html">Product detail</a></li>
-                            </ul>
-                        </li>
-                    <!--    <li>
-                            <a href="#">Shortcodes</a>
-                            <ul>
-                                <li><a href="buttons.html">Buttons</a></li>
-                                <li><a href="tabs.html">Tabs</a></li>
-                                <li><a href="elements.html">Elements</a></li>
-                                <li><a href="typography.html">Typography</a></li>
-                                <li><a href="pricing.html">Pricing Table</a></li>
-                            </ul>
-                        </li>-->
-                        <li>
-                            <a href="#">Blog</a>
-                            <ul>
-                                <li>
-                                    <a href="#">Blog pages</a>
-                                    <ul>
-                                        <li><a href="blog1.html">Blog style 1</a></li>
-                                        <li><a href="blog2.html">Blog style 2</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Single pages</a>
-                                    <ul>
-                                        <li><a href="single-standard.html">Single standard</a></li>
-                                        <li><a href="single-soundcloud.html">Single audio</a></li>
-                                        <li><a href="single-gallery.html">Single gallery</a></li>
-                                        <li><a href="single-video.html">Single video</a></li>
-                                        <li><a href="single-album.html">Single album</a></li>
-										<li><a href="single-artist.html">Single artist</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="">About</a>
-                        <li><a href="contact.html">Contact</a></li>
-
-                    </ul>
-                    <!-- main-menu -->
-
-                    <i class='fa fa-align-justify'></i>
-                
-                    <div class="mobile-menu-wrapper">
-                        <ul id="mobile-menu">
-                            <li class="current-menu-item">
-                                <a href="#">Home</a>
-                                <ul>
-                                    <li><a href="index.html">Home style 1</a></li>
-                                    <li><a href="index2.html">Home style 2</a></li>
-                                </ul>                                
-                            </li>
-
-                            <li>
-                                <a href="#">Blogs</a>
-                                <ul>
-                                    <li>
-                                        <a href="#">Blog page</a>
-                                        <ul>
-                                            <li><a href="blog1.html">Blog style 1</a></li>
-                                            <li><a href="blog2.html">Blog style 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">Single page</a>
-                                        <ul>
-                                            <li><a href="single-standard.html">Single standard</a></li>
-                                            <li><a href="single-video.html">Single video</a></li>
-                                            <li><a href="single-soundcloud.html">Single audio</a></li>
-                                            <li><a href="single-gallery.html">Single gallery</a></li>
-                                            <li><a href="single-album.html">Single album</a></li>
-											<li><a href="single-artist.html">Single artist</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="gallery.html">Gallery page</a></li>
-                            <li><a href="albums.html">Albums page</a></li>
-							<li><a href="artists.html">Artists page</a></li>
-                            <li>
-                                <a href="#">Events</a>
-                                <ul>
-                                    <li><a href="event-1.html">Events style 1</a></li>
-                                    <li><a href="event-2.html">Events style 2</a></li>
-                                    <li><a href="event-3.html">Events style 3</a></li>
-                                    <li><a href="event-4.html">Events style 4</a></li>
-									<li><a href="single-event.html">Single Event</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Shop</a>
-                                <ul>
-                                    <li><a href="shop.html">Shop list</a></li>
-                                    <li><a href="single-product.html">Shop detail</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Shortcodes page</a>
-                                <ul>
-                                    <li><a href="elements.html">Elements</a></li>
-                                    <li><a href="buttons.html">Buttons</a></li>
-                                    <li><a href="tabs.html">Tabs</a></li>
-                                    <li><a href="typography.html">Typography</a></li>
-                                    <li><a href="pricing.html">Pricing Table</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="contact.html">Contact page</a>
-                            </li>
-                        </ul>
-                        <!-- mobile-menu -->
-                    </div>
-                    <!-- mobile-menu-wrapper -->
-
-                </nav>
-                <!-- main-nav -->
-                
-            </div>
-            <!-- outer -->
-            
-        </div>
-        <!-- kopa-header-bottom -->
-        
-    </div>
     <!-- kopa-page-header -->
-
+    <!--HEADER-->
+    <%- include('partials/_header') %> 
     <div id="main-content">
 
         <div class="kopa-rt">
@@ -304,7 +26,7 @@
                         <div class="mask"></div>
                         <div class="slide-caption">
                             <a class="author-name" href="#">Stirling Myles</a>
-                            <h2 class="entry-title"><a href="#">Suge Knight Arrested For Murder</a></h2>
+                            <h2 class="entry-title"><a href="#"><%= user %></a></h2>
                         </div>                    
                     </div>
 
@@ -1686,34 +1408,16 @@
         </section>
         <!-- kopa-area-8 -->
 
-        <div class="kopa-footer text-center">
-
-            <div class="wrapper">
-
-                <div class="kopa-social-links style1">
-                    <ul class="clearfix">
-                        <li><a href="#" class="fa fa-facebook"></a></li>
-                        <li><a href="#" class="fa fa-twitter"></a></li>
-                        <li><a href="#" class="fa fa-instagram"></a></li>
-                        <li><a href="#" class="fa fa-google-plus"></a></li>
-                    </ul>
-                </div>
-
-                <p id="copyright">Copyright © 2015 Kopasoft. All rights reserved.</p>
-            
-            </div>
-            <!-- wrapper -->
-
-        </div>
+        <!--FOOTER-->
+        <%- include('partials/_footer') %> 
         <!-- kopa-footer -->
 
     </div>
     <!-- main-content -->
 
     
-    <script src="/javascripts/jquery-1.11.1.min.js"></script>
-    <script src="/javascripts/bootstrap.min.js"></script>
-    <script src="/javascripts/custom.js" charset="utf-8"></script>
+<!--SCRIPTS-->
+<%- include('partials/_scripts') %> 
 
     
 </body>

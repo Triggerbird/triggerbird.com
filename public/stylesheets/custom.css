@@ -1,0 +1,26 @@
+/*HELPERS*/
+.zero-top-marg{
+	margin-top: 0;
+}
+
+.zero-bottom-marg{
+	margin-bottom: 0;
+}
+
+
+
+/*ELEMENTS*/
+
+.kopa-button:hover{
+	cursor: pointer;
+}
+
+.form-button{
+	margin-top: 20px;
+}
+
+
+
+#kopa-page-header{
+	position: relative;
+}
