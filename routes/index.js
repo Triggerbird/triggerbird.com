@@ -67,7 +67,6 @@ router.post('/signup', function(req, res) {
 		success:function(user){
 			req.session.user = JSON.stringify(user);
 			req.session.token = user._sessionToken;
-			Parse.User.become(req.session.token, null)
 			res.send(JSON.stringify(user));
 
 		},
